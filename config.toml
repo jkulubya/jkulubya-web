@@ -4,6 +4,9 @@ title = "James Kulubya"
 theme = "terminal"
 paginate = 5
 
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
