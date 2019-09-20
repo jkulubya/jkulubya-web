@@ -9,7 +9,7 @@ description = "I needed to take a file upload (IFormFile) as input in an ASP.NET
 I needed to take a file upload (IFormFile) as input in an ASP.NET Core 3 (at the time of writing, version RC1) and pass that to a backend class/processor/api in the form of a custom file class. For purposes of this post, let's imagine that I have a backend API as follows.
 
 ```
-public class Processor() {
+public class Processor {
     public async Task<bool> ProcessFile(CustomFile file)
     {
         // processing magic
